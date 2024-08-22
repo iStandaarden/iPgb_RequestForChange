@@ -1,8 +1,8 @@
-name: Bevinding iWlz
+name: Bevinding iPgb
 description: Issue voor het opvoeren van een bevinding
 title: "[onderwerp]"
-labels: ["iWlz", "bevinding"]
-projects: ["iStandaarden/9"]
+labels: ["iPgb", "bevinding"]
+projects: ["iStandaarden/12"]
 body:
 - type: input
   id: topdesk
@@ -39,8 +39,7 @@ body:
     options:
       - Codelijsten
       - Documentatie / Afsprakenstelsel
-      - ERD (Register)
-      - Koppelvlak specificatie
+      - Class model (Bericht)
       - Regels
       - XSD 
       - anders, (geef hieronder aan)
@@ -57,11 +56,11 @@ body:
     label: Betrokken partij RFC
     multiple: true
     options:
-      - CAK
-      - CIZ
-      - Zorgaanbieder
+      - VWS
+      - Gemeente
       - Zorgkantoor
       - Zorginstituut
+      - SVB
       - anders, (geef aan bij contactpersoon)
   validations:
     required: true
@@ -82,13 +81,14 @@ body:
   attributes:
     label: Indiener RFC
     options:
-      -
-      - CAK
-      - CIZ
-      - Softwareleverancier zorgaanbieder
-      - Softwareleverancier zorgkantoor
-      - Zorgaanbieder
+      - VWS
+      - Gemeente
       - Zorgkantoor
+      - Zorginstituut
+      - SVB
+      - anders, (geef aan bij contactpersoon)
+      - Softwareleverancier zorgkantoor
+      - Softwareleverancier gemeente
       - Zorginstituut
       - anders, (geef aan bij contactpersoon)
   validations:
