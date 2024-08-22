@@ -24,13 +24,6 @@ body:
     placeholder: Geef een korte omschrijving van het probleem
   validations:
     required: true
-- type: textarea
-  id: wijziging
-  attributes:
-    label: Korte omschrijving voorgestelde oplossing
-    placeholder: Beschrijf de voorgestelde oplossing(srichting) of het gewenste resultaat
-  validations:
-    required: true
 - type: dropdown
   id: impact_onderdelen
   attributes:
@@ -155,6 +148,13 @@ body:
   attributes:
     value: |
       <hr>
+- type: textarea
+  id: wijziging
+  attributes:
+    label: Korte omschrijving voorgestelde oplossing
+    placeholder: Beschrijf de voorgestelde oplossing(srichting) of het gewenste resultaat
+  validations:
+    required: true
 - type: markdown
   attributes:
     value: "# Conclusie en Planning"
