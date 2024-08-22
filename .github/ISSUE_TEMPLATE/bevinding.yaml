@@ -38,7 +38,7 @@ body:
     multiple: true
     options:
       - Codelijsten
-      - Documentatie / Afsprakenstelsel
+      - Documentatie
       - Class model (Bericht)
       - Regels
       - XSD 
@@ -84,7 +84,6 @@ body:
       - VWS
       - Gemeente
       - Zorgkantoor
-      - Zorginstituut
       - SVB
       - anders, (geef aan bij contactpersoon)
       - Softwareleverancier zorgkantoor
