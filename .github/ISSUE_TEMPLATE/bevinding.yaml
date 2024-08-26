@@ -1,7 +1,7 @@
 name: Bevinding iPgb
 description: Issue voor het opvoeren van een bevinding
 title: "[onderwerp]"
-labels: ["iPgb", "bevinding"]
+labels: ["iPgb", "Bevinding"]
 projects: ["iStandaarden/12"]
 body:
 - type: input
