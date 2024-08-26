@@ -1,7 +1,7 @@
 name: Wijzigingsverzoek iPgb + analyse
 description: Issue voor het volgen van een Wijzigingsverzoek
 title: "RFC #### - onderwerp"
-labels: ["iPgb"]
+labels: ["iPgb", "Wijzigingsverzoek"]
 projects: ["iStandaarden/12"]
 body:
 #- type: input
