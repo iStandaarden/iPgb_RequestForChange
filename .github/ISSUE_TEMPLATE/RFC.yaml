@@ -161,7 +161,7 @@ body:
 
       Het advies is om te kiezen voor oplossingsrichting <oplossingsrichting>.
       
-validations:
+  validations:
     required: true
 - type: markdown
   attributes:
