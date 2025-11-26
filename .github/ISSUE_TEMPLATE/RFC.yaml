@@ -13,7 +13,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      <hr>
+      # Wijzigignsverzoek
 - type: textarea
   id: samenvatting
   attributes:
@@ -24,7 +24,7 @@ body:
 
       **Omdat** <oorzaak probleem> **ervaar ik als** <wie heeft er last van> **het gevolg** dat <welk negatief gevolg heeft het probleem, liefst meetbaar, in elk geval concreet>.
 
-      #### Toelichting
+      #### Toelichting op de probleemstelling
       
       <Eventuele extra toelichting rondom de probleemstelling>.
 
@@ -117,7 +117,7 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: "## Wijzigingsvoorstellen"
+    value: "## Wijzigingsvoorstel"
 - type: textarea
   id: oplossingsrichtingen
   attributes:
@@ -135,7 +135,7 @@ body:
       | | Nadeel: <beschrijving nadeel t.o.v. andere oplossingsrichtingen en huidige situatie> |
       | | Nadeel: <beschrijving volgend nadeel t.o.v. andere oplossingsrichtingen en huidige situatie> |
 
-      ### Oplossingrichting 2
+      ### Oplossingsrichting 2
 
       <Geef een omschrijving van de tweede oplossingsrichting.>
 
