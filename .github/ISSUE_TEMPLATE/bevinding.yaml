@@ -102,7 +102,7 @@ body:
     value: <hr>
 - type: markdown
   attributes:
-    value: "# Conclusie en Oplossing"
+    value: "# Conclusie, oplossing en uitwerking"
 - type: textarea
   id: oplossing
   attributes:
@@ -115,6 +115,43 @@ body:
     options:
       - Doorvoeren oplossing
       - Verwerpen (bevinding niet gegrond)
+- type: textarea
+  id: uitwerking
+  attributes:
+    label: Uitwerking
+    placeholder: |
+      # Uitwerking bevinding
+
+      ## Proces
+
+      | Onderwerp | Mutatie | Oude situatie | Nieuwe situatie |
+      | :--- | :--- | :--- | :--- |
+      | <Proces naam> | <Toevoegen / Wijzigen / Verwijderen> | <Wat was er eerst?> | <Wat is er na het oplossen van deze bevinding?> |
+      
+      ## Berichtdefinitie
+      
+      | Onderwerp | Mutatie | Oude situatie | Nieuwe situatie |
+      | :--- | :--- | :--- | :--- |
+      | <bericht id>.<klasse id>.<element id> | <Toevoegen / Wijzigen / Verwijderen> | <Wat was er eerst?> | <Wat is er na het oplossen van deze bevinding?> |
+      
+      ## Regels
+      
+      | Onderwerp | Mutatie | Oude situatie | Nieuwe situatie |
+      | :--- | :--- | :--- | :--- |
+      | Regel id | <Toevoegen / Wijzigen / Verwijderen> | <Wat was er eerst?> | <Wat is er na het oplossen van deze bevinding?> |
+      
+      ## Codelijsten
+      
+      | Onderwerp | Mutatie | Oude situatie | Nieuwe situatie |
+      | :--- | :--- | :--- | :--- |
+      | <codelijst id> | <Toevoegen / Wijzigen / Verwijderen> | <Wat was er eerst?> | <Wat is er na het oplossen van deze bevinding?> |
+      
+      ## Casuïstiek
+      
+      | Onderwerp | Mutatie | Oude situatie | Nieuwe situatie |
+      | :--- | :--- | :--- | :--- |
+      | <casus id> | <Toevoegen / Wijzigen / Verwijderen> | <Wat was er eerst?> | <Wat is er na het oplossen van deze bevinding?> |
+      
 - type: input
   id: implementatie
   attributes:
