@@ -119,7 +119,7 @@ body:
   id: uitwerking
   attributes:
     label: Uitwerking
-    placeholder: |
+    value: |
       # Uitwerking bevinding
 
       ## Proces
